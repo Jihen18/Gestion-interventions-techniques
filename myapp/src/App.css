@@ -1,0 +1,1377 @@
+body {
+  font-family: "Roboto", sans-serif;
+  /* background-color: #8ac6d1; */
+  background-color: #7895CB;
+  /* background-color: rgb(240, 242, 245); */
+}
+/*------------global-----------*/
+.container {
+  max-width: 85%;
+  margin: auto;
+}
+.logout:hover{
+text-decoration: none;
+}
+.loginIcon{
+  color: #B9B4C7;
+
+}
+
+.clientName{
+position: relative;
+right: 20px;
+}
+
+.addTechMsg{
+  color: #333;
+}
+.fullNameUser{
+  position: relative;
+  right: 28px;}
+.btn-claim{
+  margin-top: 30px;
+}
+.flexSB {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.loginLink{
+ margin-left: 10px;
+ color: wheat;
+ transition: 0.5s;
+
+ 
+}
+
+.signupForm button{
+  background-color: #0f569b;
+  border-color: #0f569b;
+}
+
+.signupForm button:hover{
+  background-color: #0f569b;
+  border-color: #0f569b;
+}
+
+.signupForm{
+  position: relative;
+  left: 50px;
+}
+.forgetPassword p{
+  color: wheat ;
+  margin-top: 6px;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #1eb2a6;
+  transition: 0.5s;
+}
+.icon:hover {
+  cursor: pointer;
+  background-color: #1eb2a6;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.row {
+  width: 50%;
+}
+.buttonPresentation {
+  padding: 17px 30px;
+  background-color: #fff;
+  color: #1eb2a6;
+  font-weight: 600;
+  border: none;
+  margin: 30px 10px 0 0;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
+  transition: 0.5s;
+}
+button i {
+  margin-left: 20px;
+}
+.userIcon {
+  margin-right: 10px;
+  font-size: 19px;
+}
+button:hover {
+  box-shadow: none;
+}
+.userSpan {
+  margin-right: 15px;
+}
+.primary-btn {
+  background-color: #e7b10a;
+  color: #fff;
+}
+
+.subtitle {
+  color: #e7b10a; 
+}
+
+/* #heading {
+  text-align: center;
+  padding: 40px 0;
+}
+#heading h3 {
+  text-align: center;
+  padding: 40px 0;
+} 
+
+#heading h1 {
+  font-size: 45px;
+  margin: 20px 0;
+  text-transform: capitalize;
+}
+p {
+  line-height: 30px;
+  font-size: 18px;
+}
+  .margin {
+    height: 40vh;
+  }
+  .presentation {
+    background-position: right;
+    /* padding-top: 50%; */
+    /* height: 80vh; */
+  /* } */
+  .presentation .row {
+    /* width: 100%; */
+  }
+
+
+.presentation #heading h3 {
+  color: #fff;
+}
+.presentation #heading {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.margin {
+  margin-top: 40.3%;
+}
+
+/*--------head------------*/
+.head {
+  padding: 20px 0;
+  color: #fff;
+}
+.logo h1 {
+  font-size: 35px;
+  font-weight: 900;
+}
+.head .icon {
+  margin-left: 10px;
+}
+/*--------head------------*/
+/*--------header------------*/
+header {
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 30px;
+  position: relative;
+}
+header .nav {
+  display: flex !important;
+}
+header li {
+  margin-right: 40px;
+}
+header ul {
+  padding: 24px 20px;
+}
+header ul li a {
+  color: #fff;
+  font-weight: 500;
+  transition: 0.5s;
+}
+header ul li a:hover {
+  color: #1eb2a6;
+}
+.start {
+  background-color: #e7b10a;
+  padding: 30px 70px;
+  color: #fff;
+  clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
+}
+.toggle {
+  display: none;
+}
+/*--------header------------*/
+@media screen and (max-width: 768px) {
+  .start {
+    clip-path: none;
+  }
+  header {
+    margin: 0;
+    background-color: #1eb2a6;
+    position: relative;
+  }
+  header ul.flexSB {
+    display: none;
+  }
+  header ul li {
+    margin-bottom: 20px;
+  }
+  .toggle {
+    display: block;
+    background: none;
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    top: -25px;
+  }
+  .mobile-nav {
+    position: absolute;
+    top: 7vh;
+    left: 0;
+    width: 100%;
+    background-color: #1eb2a6;
+  }
+}
+
+.descriptionWebSite{
+  margin-top: 70px;
+}
+
+.presentation {
+  width: 100%;
+  padding-right: 50px;
+  color: #fff;
+}
+/* presentation */
+.presentationImg {
+  position: absolute;
+  width: 800px;
+  left: 644px;
+}
+
+/* UserDetails */
+
+.horLine {
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.userDetail {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 25% 60%;
+}
+
+
+.userOptions {
+
+}
+.userInfo {
+  /* display: grid;
+  grid-template-columns: 50% 50%; */
+
+  margin-left: 0;
+  padding: 40px;
+  color: #fff;
+  background-color: rgba(29, 93, 155, 0.5);
+}
+
+/* userMoreDetail */
+
+.btn-edit{
+  background-color: #0f569b;
+  border-color: #0f569b;
+}
+.btn-edit:hover{
+
+  background-color: #0f569b;
+  border-color: #0f569b;
+
+}
+.userDetail{
+  margin-bottom: 40px;
+}
+
+.userOptionsAdmin{
+  /* background-color: white; */
+  background: linear-gradient(69.9deg, rgb(76, 79, 106) 3.2%, rgb(118, 124, 163) 97.6%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 2%;
+  /* background-color: #B9B4C7; */
+  margin-left: 40px;
+
+}
+.start a:hover{
+  text-decoration: none;
+}
+
+.flexSB ul a:hover{
+  text-decoration: none;
+  color: #0f569b;
+}
+.connetionContainer a:hover{
+text-decoration: none;
+}
+.start a{
+position: relative;
+bottom: 3px;
+left: 3px;
+}
+
+.userInfoAdmin{
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ border-radius: 2%;
+}
+
+.userInfoAdmin h4{
+  text-align: center;
+  background: linear-gradient(69.9deg, rgb(76, 79, 106) 3.2%, rgb(118, 124, 163) 97.6%);
+  width: 400px;
+  height: 40px;
+  border-radius: 2%;
+  color: white;
+  padding: 4px;
+  position: relative;
+  left: 160px;
+  bottom: 10px;
+
+
+}
+.optionsParam{
+}
+
+.adminOptions{
+margin-top: 40px;
+}
+
+.adminOptions a:hover{
+  text-decoration: none;
+  }
+  .adminOptions a:hover{
+    background-color: #f5f5f5; /* Ou utilisez gainsboro ou lightgray */
+
+padding: 2px;   }
+.userDetailSecondAdmin{
+  position: absolute;
+  bottom: 377px;
+  left: 1000px;
+}
+.deleteBtnAdmin{
+  margin-right: 10px;
+}
+
+.alertTextAdmin{
+  
+   background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%); 
+   padding: 30px;
+   color: #333;
+}
+/**/
+.alertDeleteAdmin{
+  color: white;
+  background: linear-gradient(69.9deg, rgb(76, 79, 106) 3.2%, rgb(118, 124, 163) 97.6%);
+}
+.userInfoAdmin{
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ border-radius: 2%;
+}
+.userDetailIconAdmin{
+  margin-top: 10px;
+  position: relative;
+  left: 7px;
+}
+.learnMoreUserAdmin a{
+color: white;
+position: relative;
+left: 16px;
+text-decoration: none;
+}
+
+.learnMoreUserAdmin i{
+  position: relative;
+top: -0px;
+}
+.userOptionsAdmin h4{
+  color: white;
+  margin-left: 19px;
+}
+
+
+.userDetailIcon {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  margin-left: 90px;
+  margin-bottom: 20px;
+}
+.userOptions {
+  box-shadow: 5px 0 5px rgba(0, 0, 0, 0.2); /* Ajouter une ombre à droite */
+
+  background-color: rgba(231, 177, 10, 0.8);
+  color: #fff;
+  padding: 20px;
+  margin-left: 80px;
+  z-index: 1;
+}
+.userOptionIcon {
+  margin-right: 10px;
+  position: relative;
+  
+  top:20px;
+}
+
+.userInfoAdmin a{
+  color: #333;
+
+}
+.optionIcon{
+  color: red;
+
+}
+.lii {
+}
+.userOptions h4 {
+  margin-left: 30px;
+}
+.optionHr {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.userInfo h4 {
+  margin-bottom: 50px;
+  background-color: rgba(231, 177, 10, 0.8);
+  text-align: center;
+  border-radius: 20%;
+  padding: 5px;
+}
+.userDetailSecondSection {
+  position: absolute;
+  left: 930px;
+  bottom: 225px;
+
+}
+.userDetailFirstSection {
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+/* Paramater */
+
+.userParam {
+  /* display: grid;
+  grid-template-columns: 50% 50%; */
+
+  margin-left: 0;
+  padding: 40px;
+  color: #fff;
+  background-color: rgba(29, 93, 155, 0.5);
+}
+.userParam h4 {
+  margin-bottom: 50px;
+  background-color: rgba(231, 177, 10, 0.8);
+  text-align: center;
+  border-radius: 20%;
+  padding: 5px;
+}
+
+/* confirmSuppression */
+.alertTitle {
+  background-color: rgba(231, 177, 10, 0.8);
+  padding: 4px;
+}
+.alertText {
+  background-color: rgba(29, 93, 155, 0.5);
+  color: #fff;
+  padding: 20px;
+}
+
+.alertContainer {
+  color: #1d5d9b;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+
+  margin-top: 70px;
+  width: 1000px;
+}
+.alertContainer p {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.warningIcon {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.alertText h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.buttonSection {
+  text-align: center;
+}
+
+.deleteBtn {
+  color: #1d5d9b;
+}
+
+/* Parameter */
+
+.userParam a {
+  color: #fff;
+  padding: 10px;
+}
+/* .userParam a:hover {
+ 
+  color: #1d5d9b;
+  transition: 0.5s;
+  background-color: rgba(231, 177, 10, 0.8);
+  text-align: center;
+  border-radius: 20%;
+} */
+.resetAccount:hover {
+}
+.optionParam:hover {
+  color: #1d5d9b;
+  transition: 0.5s;
+  background-color: rgba(231, 177, 10, 0.8);
+  text-align: center;
+  border-radius: 20%;
+}
+.alertCustom {
+  background-color: #ddaf0a;
+  box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
+
+  color: white;
+  /* Ajoutez d'autres styles de mise en forme si nécessaire */
+}
+.warning {
+  font-size: 15px;
+}
+
+/* Claim */
+
+.reclaimForm {
+  padding: 40px;
+
+  color: #fff;
+  background-color: rgba(29, 93, 155, 0.5);
+  /* background-color: #678acc; */
+  box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
+
+  margin: 60px;
+}
+.reclaimForm h4 {
+  margin-bottom: 50px;
+  background-color: rgba(231, 177, 10, 0.8);
+  text-align: center;
+  border-radius: 20%;
+  padding: 5px;
+}
+
+select {
+  /* Espacement intérieur */
+}
+.selectCategory {
+  background-color: #f5f5f5; /* Couleur de fond de l'élément select */
+  color: #333; /* Couleur du texte */
+  padding: 5px;
+}
+.selectCategory:hover {
+}
+form {
+}
+/* reclamations */
+
+.titleContainer{
+  display: grid;
+  /* grid-template-columns: repeat(5,1fr); */
+  grid-template-columns: 400px 200px 200px 200pX 350px;
+
+
+
+}
+.reclamationsContainer{
+  display: grid;
+  /* grid-template-columns: repeat(5,1fr); */
+  grid-template-columns: 400px 200px 200px 200pX 350px;
+}
+
+.reclamationsContainer p {
+  border-bottom: 1px solid #ccc; /* Ajouter une ligne de séparation */
+  padding: 8px 0; /* Facultatif : ajouter un peu d'espace entre les cellules */
+}
+
+.reclamationsContainer p:last-child {
+  /* border-bottom: none; Supprimer la ligne de séparation pour le dernier élément */
+}
+.titleContainer{
+  margin-bottom: 20px;
+}
+
+.FilterHolder{
+  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.titleContainer p{
+  text-decoration: underline;
+}
+
+.usersContainer{
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 80px;
+  padding: 30px;
+  
+}
+
+.reclamsContainer{
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 80px;
+  padding: 40px;
+  
+  
+}
+
+.usersContainer h4{
+  padding: 20px;
+  color: white;
+  text-align: center;
+  /* background: radial-gradient(590px at 8.2% 13.8%, rgb(18, 35, 60) 0%, rgb(187, 187, 187) 90%);  color: white; */
+}
+/* NotificationContainer */
+.countContainer{
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+   position: absolute; 
+  /* padding: 20px; */
+  width: 17px;
+  height: 17px;
+  bottom: 12px;
+
+}
+.countContainer p{
+  font-size: 9px;
+  position: relative;
+  left: 4px;
+  bottom: 5px;
+
+}
+.reclamationCount{
+
+  right: 342px;
+
+
+}
+.messageCount{
+  right: 162px;
+}
+.user-cards-container {
+  display: grid;
+ grid-template-columns: repeat(4,1fr);
+
+}
+.cardBody{
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+}
+
+
+.cardBody h5{
+  color: #765827;
+}
+.learnMoreLink{
+  color: #f5f5f5;
+}
+.learnMoreLink:hover{
+  color: #f5f5f5;
+}
+.cardBody button Link{
+  color: #f5f5f5;
+}
+.cardBody p {
+  /* z-index: 1000; */
+  color: #1d5d9b;
+
+}
+
+.link-button i{
+  color: #071952;
+}
+.link-button span{
+  color: #071952;
+}
+
+ .link-button {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+} 
+
+/* AdminPage */
+
+.globalAdminContainer{
+
+  margin-top: 0;
+  display: grid;
+  grid-template-columns: 17% 83%;
+  background-color: rgb(240, 242, 245);
+
+  
+}
+
+
+.globalAdminContainer::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(240, 242, 245);
+  z-index: -1;
+}
+.adminSidePanel{
+  margin-top: 30px;
+  height: 630px;
+  margin-left: 10px;
+  background: radial-gradient(circle at 24.1% 68.8%, rgb(0, 0, 0) 0%, rgb(50, 50, 50) 99.4%);
+  /* background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%); */
+  border-radius: 3%;
+}
+
+.panelTop{
+  margin-top: 30px;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.panelTop hr { 
+   /* background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255), rgba(255, 255, 255, 0)) !important; */
+   /* color: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%); */
+   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255), rgba(255, 255, 255, 0)) ;
+   height: 0.0625rem;
+   width: 200px;
+   margin: auto;
+   
+
+}
+.smallInput{
+  width: 700px;
+}
+.adminForm{
+  height: 440px;
+}
+.adminInfo{
+  position: relative;
+  top:30px;
+}
+.itemContainer{
+display: grid;
+grid-template-columns: 10% 90%;
+}
+.itemDetailContainer{
+  display: grid;
+  grid-template-columns: 10% 90%;
+  column-gap: 10px;
+}
+.adminSidePanel ul{
+  margin-top: 30px;
+}
+.itemChoice{
+  width: 220px;
+  /* margin-left: 40px;
+  margin-right: 40px; */
+  position: relative;
+  color: #f5f5f5;
+  background-color: transparent;
+  right: 17px;
+  height: 45px;
+  border-radius: 2%;
+  /* background-color: #1d5d9b; */
+  padding: 14px;
+  margin-bottom: 18px;
+  
+}
+.itemHiddenDiv{
+  padding: 4px;
+  margin-bottom: 18px;
+  position: relative;
+  right: 20px;
+}
+
+.panelList a{
+text-decoration: none;
+}
+
+.itemHiddenDiv:hover{
+
+background-color: #EEEEEE;
+/* background-color: red; */
+  transition: background-color 0.3s; 
+
+
+}
+.itemChoice:hover{
+
+  background-color: rgba(255, 255, 255, 0.3);
+
+
+  transition: background-color 0.3s; 
+
+}
+.itemChoice:hover{
+
+  background-color: rgba(255, 255, 255, 0.3);
+
+
+  transition: background-color 0.3s; 
+
+}
+.iconChoice{
+  
+  margin-right: 30px;
+  font-size: 23px;
+  position: relative;
+  bottom: 2px;
+}
+
+.headerAdmin{
+  margin-top: 30px;
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+.homeIcon{
+  color:  rgb(112, 131, 163);
+  font-size: 15px;
+
+}
+.homeIcon{
+  position: relative;
+  top: 5px;
+  left: 20px;
+}
+.userLocation{
+  display: grid;
+  grid-template-columns: 5% 18%;
+}
+.userLocation a{
+  text-decoration: none;
+  color:  rgb(112, 131, 163);
+}
+.userLocation a:hover{
+cursor:default;
+}
+.userParamIcon{
+ 
+  color:  rgb(112, 131, 163);
+  font-size: 24px;
+  margin-left: 20px;
+}
+.toggle-div {
+  position: absolute;
+  right: 50px;
+  width: 270px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1000;
+  margin-top: 3px;
+  transition: 0.3s;
+
+  max-height: 200px; /* Ajustez la hauteur maximale souhaitée */
+  overflow-y: scroll;
+}
+.optionIcon{
+  font-size: 16px;
+  top: 3px;
+  color:  rgb(112, 131, 163);
+  /* position: relative; */
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  margin-right: 5px;
+  
+}
+
+.adminListOptions a {
+  position: relative;
+  right: 20px;
+}
+
+.adminListOptions li{
+  margin-top: 8px;
+}
+
+.itemOptionList:hover{
+
+  background-color: #f0f0f0; /* Gris très clair au survol */
+
+  transition: background-color 0.3s; 
+
+
+
+}
+
+.itemOptionList{
+  padding: 6px;
+}
+
+.adminListOptions a{
+  text-decoration: none;
+  color: #333;
+}
+
+
+
+
+
+
+
+
+.app {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.cardTableContainer{
+
+  display: grid;
+  grid-template-columns: 30% 70%;
+
+}
+
+.hidden-div {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  width: 300px;
+  height: 100%;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+.hidden-div h4{
+
+  margin-top: 10px;
+}
+.ulHiddenDiv{
+  margin-top: 110px;
+}
+.ulHiddenDiv a{
+text-decoration: none;
+}
+.hidden-div h5{
+  color:rgb(52, 71, 103);
+  line-height: 1.375;
+
+}
+.hidden-div p{
+  font-weight:300;
+  color: rgb(123, 128, 154);
+  line-height: 1.6;
+  font-size:1rem;
+}
+.hidden-div hr{
+  width: 290px;
+  position: relative;
+  right: 40px;
+  color:  rgb(112, 131, 163);
+}
+
+/* cardCss */
+
+
+
+.cardContainer{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.infoCardContainer{
+  background-color: white;
+  width: 270px;
+  margin-left: 50px;
+  margin-top: 70px;
+  height: 140px;
+  border-radius: 4%;
+box-shadow: rgba(0, 0, 0, 0.1) 0rem 0.25rem 0.375rem -0.0625rem, rgba(0, 0, 0, 0.06) 0rem 0.125rem 0.25rem -0.0625rem;
+
+}
+.iconContainer{
+
+background: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
+  width: 50px;
+  height: 50px;
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+  padding: 10px 12px;
+  border-radius: 16%;
+}
+
+.titleHolder{
+  width: 500px;
+  position: relative;
+  bottom: 50px;
+  left: 300px;
+  border-radius: 2%;
+  height: 70px;
+  background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+
+}
+.titleReclamsHolder{
+  width: 460px;
+  position: relative;
+  bottom: 50px;
+  left: 650px;
+  border-radius: 2%;
+  height: 70px;
+  background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+}
+
+.titleReclamsHolder h4{
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+.iconContainerReclams{
+  background: radial-gradient(circle at 10% 20%, rgb(221, 49, 49) 0%, rgb(119, 0, 0) 90%);
+}
+.iconContainerClients{
+  background:  linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+}
+
+.iconContainerInterventions{
+  background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+}
+
+.cardContainer a{
+text-decoration: none;
+color:  #7B8FA1;
+}
+
+.cardTableContainer a{
+  text-decoration: none;
+  color:  #7B8FA1;
+  }
+
+.cardIcon{
+  color: white;
+  font-size: 27px;
+  text-align: center;
+  
+}
+.infoCardContainer h4{
+
+  position: relative;
+  bottom: 20px;
+
+}
+
+
+/* .infoCardContainer p{
+  position: relative;
+  bottom: 5px;
+  left: 50px;
+
+} */
+.cardContent{
+  text-align: center;
+  
+}
+.tableContainer{
+
+  background-color: white;
+  border-radius: 4%;
+  width: 800px;
+  height: 300px;
+  padding: 15px;
+  margin-top: 68px;
+
+  
+}
+.table {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.table th,
+.table td {
+  padding: 2px; 
+
+}
+
+.table2 th,td{
+padding: 7px 10px;
+}
+.tableTitle{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.learnMoreLinkBtn{
+
+position: relative;
+left: 340px;
+top: 20px;
+}
+.progressContainer{
+  margin-left: 40px;
+  border-radius: 4%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0rem 0.25rem 0.375rem -0.0625rem, rgba(0, 0, 0, 0.06) 0rem 0.125rem 0.25rem -0.0625rem;
+  margin-top: 40px;
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+.progressContainer h5{
+  /* margin-top: 10px; */
+  text-align: center;
+}
+.iconContainerProgress{
+  background: radial-gradient(circle at 10% 20%, rgb(246, 98, 128) 0%, rgb(248, 129, 135) 98.3%);
+  width: 50px;
+  height: 50px;
+  position: relative;
+  bottom: 30px;
+  padding: 10px 12px;
+  border-radius: 16%;
+  
+}
+.timeLineIcon{
+position: relative;
+top: 2px;
+
+}
+
+.divideHrHiddenDiv{
+  flex-shrink:0;
+  border-top: 0px solid rgba(0, 0, 0, 0.12);
+  border-right: 0px solid rgba(0, 0, 0, 0.12);
+  border-left: 0px solid rgba(0, 0, 0, 0.12);
+  height: 0.0625rem;
+  margin: 1rem 0px;
+  background-image: linear-gradient(to right, rgba(52, 71, 103, 0), rgba(52, 71, 103, 0.4), rgba(52, 71, 103, 0)) !important;
+}
+
+
+/* Add technician */
+
+.containerAddTechnician{
+  background-color: white;
+  border: 2%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+
+}
+.titleAddTechnician {
+  width: 460px;
+  position: relative;
+  bottom: 80px;
+  left: 270px;
+  border-radius: 2%;
+  height: 70px;
+  background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+}
+
+.titleAddTechnician h5{
+  text-align: center;
+  position: relative;
+  font-size: 25px;
+  top: 20px;
+  color: white;
+}
+.btnAddTech{
+  margin-left:440px;
+}
+.addForm{
+  color: #333;
+}
+
+
+/* loginCss */
+
+.loginForm{
+  width: 770px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* AddCategory */
+
+.addCatgoryContainer{
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.catgoryInput{
+  text-align: center;
+  width: 620px;
+}
+.categoryTitle{
+  position: relative;
+left: 80px;  
+}
+.btnAddCategory{
+margin-left: 270px;
+}
+
+/* CategoryOptions */
+
+.table3{
+text-align: center;
+}
+
+/* updateAccountCSS */
+
+.updateAccountForm{
+  height: 480px;
+}
+.updateAccountForm select{
+  margin-bottom: 30px;
+}
+
+/* .iconAdd{
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+
+
+}
+
+.cardAdd{
+  margin-top: 40px;
+
+  background-color: #89c6d1;
+  width: 50px;
+  height: 240px;
+
+
+} */
+
+.iconAdd{
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+position: relative;
+bottom: 23px;
+}
+
+  .cardAdd{
+    margin-top: 40px;
+  
+    background-color: #89c6d1;
+
+  }  
+
+  
+
+  .addLink:hover{
+    text-decoration: none;
+  }
+
+  .containerFilters{
+    /* display: grid; */
+    /* grid-template-columns: repeat(2,1fr); */
+
+  }
+  .filtersContainers{
+    margin-bottom: 40px;
+  }
+  .filtersContainers select{
+    background-color: transparent;
+  }
+  .selectContainer label{
+    color:black;
+  }
+  .selectContainer{
+  }
+
+  .filtersContainers{
+    margin-left: 300px;
+  }
+  .profileUser{
+position: relative;
+
+  }
+
+  .userDetailSecondSection{
+
+    position: absolute;
+    top: 160px;
+    
+  }
+  .iconUserOptions{
+    position: relative;
+top: 0px;
+  }
+  .iconParam{
+color: white;
+  }
+  .userParam a:hover{
+text-decoration: none;
+  }
+
+  .option a:hover{
+    text-decoration: none;
+  }
